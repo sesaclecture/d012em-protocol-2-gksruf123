@@ -37,7 +37,7 @@ def test_rfid_poll_once():
     assert atqa == bytes([0x04, 0x00])
 
 
-def test_rfid_antenna():
+def test_rfid_set_antenna():
     """check the return value of rfid_set_antenna()"""
     main = importlib.import_module("src.main")
 
